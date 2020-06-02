@@ -89,6 +89,7 @@ class DoubleLinkedList:
         
         if self.front.data == x:
             self.front = self.front.next
+            return
         
         current = self.front
         while current != None and not (current.data == x):
